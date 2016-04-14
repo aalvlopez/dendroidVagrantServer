@@ -15,13 +15,22 @@ vagrant up
 That can take few minutes
 when the command execution finishes you can access to the Dendroid Web through <http://localhost/>
 
+When you finish with the VM you can stop it with:
+```sh
+vagrant halt
+```
+or if you want to delete all the VM data use:
+```sh
+vagrant destroy
+```
+
 # Data you must know
 In the configuration form you will need the following information:
 
   - **Database Username**:  root
   - **Database Password**:  password
-  - **Database Host**: 127.0.0.1
-  - **Database Name**: dendroid
+  - **Database Host**:      127.0.0.1
+  - **Database Name**:      dendroid
 
 You can change this values editing the [bootstrap.sh][vagrantFile] file for the user and password of mysql and the [SQL.sql][sqlFile] file for the database name.
 
