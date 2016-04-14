@@ -22,11 +22,11 @@ In the configuration form you will need the following information:
   - **Database Password**:  password
   - **Database Host**: 127.0.0.1
   - **Database Name**: dendroid
-    
-You can change this values editing the [Vagrantfile][vagrantFile] for the user and password of mysql and the [SQL.sql][sqlFile] for the database name.
-    
+
+You can change this values editing the [bootstrap.sh][vagrantFile] file for the user and password of mysql and the [SQL.sql][sqlFile] file for the database name.
+
    [Vagrant]:<https://www.vagrantup.com/>
    [VirtualBox]:<https://www.virtualbox.org/>
    [Git]:<https://git-scm.com/>
-   [vagrantFile]: <https://github.com/aalvlopez/dendroidVagrantServer/blob/master/Vagrantfile>
+   [vagrantFile]: <https://github.com/aalvlopez/dendroidVagrantServer/blob/master/bootstrap.sh>
   [sqlFile]: <https://github.com/aalvlopez/dendroidVagrantServer/blob/master/SQL.sql>
